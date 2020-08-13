@@ -1,0 +1,230 @@
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(236 36 36 / 90%);
+}
+
+@media (max-width: 1028px) {
+
+#title{
+  text-align: center;
+}
+button.Meer-inligting{
+  margin-left: 30%;
+}
+button.Meer-inligting1{
+  margin-left: 32%;
+}
+
+}
+
+
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+.navbar {
+  padding: 0 4.5rem;
+}
+.navbar-brand{
+  padding: 0;
+}
+.nav-item{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 0 0 2rem;
+  color: #E74F5A;
+}
+
+
+
+/* title section */
+
+h1{
+  color: #E74F5A;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  line-height: 1.5
+}
+p{
+  color: #F1F1F1
+}
+.COVID{
+  color:#E74F5A;
+}
+.container-fluid{
+  padding: 3% 5%;
+}
+ .gif{
+   width: 100%;
+ }
+
+/* features section */
+
+#features{
+  padding: 0 7%;
+  background-color: #E74F5A;
+  text-align: center;
+  color: white;
+}
+
+.icon{
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #f9f9f9;
+}
+i:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.f1{
+  margin: auto;
+  padding: 2% 2%;
+}
+
+.Meer-inligting{
+  margin: 5%;
+}
+
+/* Info section */
+
+#Info{
+  text-align: center;
+}
+
+
+#Info h2{
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: 1%;
+}
+
+.small{
+  font-size: 2rem;
+}
+
+#Info em{
+  color: #E74F5A;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  padding-bottom: 1%;
+}
+
+..carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #E74F5A;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #E74F5A;
+}
+
+
+
+/* press section */
+
+
+#press{
+  background-color: #E74F5A;
+  text-align: center;
+  margin: : 0 10%;
+}
+#press img{
+  width: 60%;
+  padding: 10% 5%;
+}
+
+#press img:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+
+/* pricing section */
+
+
+#pricing{
+  text-align: center;
+  padding: 50px 100px;
+}
+
+.pricing-col{
+  padding: 2% 3%;
+}
+
+#pricing p{
+  color: #878787;
+}
+#pricing h2{
+  padding: 5%;
+}
+#pricing h1{
+  color: #E74F5A;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 4rem;
+}
+.card-header{
+  background-color: #E74F5A;
+}
+
+.price-btn{
+  margin: 10px 25px;
+}
+
+/* Call to Action */
+#cta{
+  background-color: #E74F5A;
+  text-align: center;
+  padding: 5%;
+}
+
+#cta h3{
+  color: black;
+  font-size: 2rem;
+}
+#cta h1{
+  color: white;
+
+}
+
+.cta{
+  background-color: white;
+  margin: 2% 5% 0;
+}
+
+/* footer Section */
+
+#footer{
+  text-align: center;
+  padding: 8% 5% 1%;
+}
+#footer p{
+  color: #878787
+}
+
+.SMIcon{
+  color: #E74F5A;
+  padding: 2%;
+}

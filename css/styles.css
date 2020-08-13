@@ -7,6 +7,9 @@
 #title{
   text-align: center;
 }
+#title .Meer-inligting{
+  margin: 2%;
+}  
 }
 
 
@@ -56,6 +59,10 @@ p{
    width: 100%;
  }
 
+.Meer-inligting{
+  margin: 5%;
+}
+
 /* features section */
 
 #features{
@@ -81,9 +88,7 @@ i:hover{
   padding: 2% 2%;
 }
 
-.Meer-inligting{
-  margin: 5%;
-}
+
 
 /* Info section */
 
